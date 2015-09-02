@@ -6,11 +6,12 @@ import java.util.Scanner;
 public class GuessingGameLogic {
 
   int numberToGuess;
-  int maxValue = 1000;
+  int maxValue;
   Scanner scan;
 
-  public GuessingGameLogic(Scanner scan){
+  public GuessingGameLogic(Scanner scan, int maxVal){
     this.scan = scan;
+    this.maxValue = maxVal;
   }
 
   public void guessingGame(){
