@@ -11,8 +11,9 @@ public class Menu {
   }
 
   public void displayMenu(){
-	//Provides user multiple options
-	  
+	/* Provides user multiple options: start a game with default max value, start a game 
+	 * with user-specified max value, display author info, quit game
+	 */ 
     System.out.println("Welcome to the Nubmer Guessing Game!");
     System.out.println("Type 1 to start a new game");
     System.out.println("Type 2 to start a new game with a user selected max value.");
